@@ -4,19 +4,49 @@
 	<title>Google</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" type="images/png" href="images/google-favicon-logo.png">
 </head>
 <body>
 	<div id="header">
 		<ul>
-			<li>Sammy</li>
-			<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-			<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=tIboVtzIDIL_-AGe1qnwAg&ved=0EKouCBYoAQ">Images</a></li>
-			<li><a href="https://www.google.com/intl/en/options/">Apps</a></li>
+			<li class="name">Sammy</li>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li><img class="image_grid" src ="images/grid_img.png"></li>
+			<li><img class="image_bell" src="images/bell_circle.png"></li>
+			<li><img class="image_photo" src="images/profile_img.png"></li>
 		</ul>
-
 	</div>
-	<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
+	<div class="content">
+		<img  class="logo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
 
+		<form>
+		<div class="search">
+			<input class="text">
+			<div>
+				<img src="images/mic.png">
+			</div>
+		</div>
+
+		<div class="buttons">
+			<button type="submit">Google Search</button>
+			<button type="submit">I'm feeling lucky</button>
+		</div>
+		</form>
+	</div>
+
+	<div id="footer">
+		<ul class="leftFooter">
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<ul class="rightFooter">
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>
+	</div>
 </body>
 </html>
 
